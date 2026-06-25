@@ -1,0 +1,5 @@
+best J = 1.2858e-06  (baseline 1.0076e-05)
+terminal dev: uncorrected 573.5 km -> corrected 51.3 km
+total dv = 26.280 m/s
+wrote traj_correction.png
+wrote cuda_vs_thrml.pptx

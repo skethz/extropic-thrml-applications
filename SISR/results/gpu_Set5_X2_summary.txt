@@ -1,0 +1,4 @@
+method=gpu dataset=Set5 scale=2
+images=5
+avg_solve_s=0.0079
+avg_total_s=0.1656

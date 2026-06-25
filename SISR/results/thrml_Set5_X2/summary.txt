@@ -1,0 +1,4 @@
+method=thrml dataset=Set5 scale=2
+images=5
+avg_solve_s=6.5042
+avg_total_s=6.5198

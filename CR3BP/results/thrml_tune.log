@@ -1,0 +1,18 @@
+START 16:59:23
+##### CONFIG=auto flags=[] #####
+beta anneal: 3.2302e+01 -> 1.9381e+03
+p_attempt: 0.0000
+best objective (min over attempts): 3.611524252393e-06
+##### CONFIG=colder flags=[--beta-end 2.0e4] #####
+beta anneal: 3.2302e+01 -> 2.0000e+04
+p_attempt: 0.0000
+best objective (min over attempts): 1.985547997047e-06
+##### CONFIG=warmstart-cold flags=[--beta-start 5.0e2 --beta-end 2.0e4] #####
+beta anneal: 5.0000e+02 -> 2.0000e+04
+p_attempt: 1.0000
+best objective (min over attempts): 8.591897017367e-07
+##### CONFIG=near-greedy flags=[--beta-start 2.0e3 --beta-end 2.0e4] #####
+beta anneal: 2.0000e+03 -> 2.0000e+04
+p_attempt: 0.0000
+best objective (min over attempts): 1.218092676913e-06
+END 17:00:26

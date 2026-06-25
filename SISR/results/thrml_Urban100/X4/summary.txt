@@ -1,0 +1,4 @@
+method=thrml dataset=Urban100 scale=4
+images=100
+avg_solve_s=11.9601
+avg_total_s=11.9919

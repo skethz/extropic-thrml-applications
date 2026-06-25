@@ -1,0 +1,38 @@
+START 16:58:11
+[thrml] devices=[CpuDevice(id=0)]
+
+=== Reference orbit ===
+row_index: 1593
+mu: 1.2150585609624041e-02
+T: 5.598534408649444 TU  ~ 24.816 days
+
+=== Baseline (linearized, u=0) ===
+pred terminal pos err: 573.457048 km
+pred terminal vel err: 0.511183 m/s
+J_baseline: 1.007559012990e-05
+J_target:   1.007559012990e-06
+
+=== thrml Ising encoding ===
+N (variables): 256
+max |J|: 1.978183e+00
+max |h|: 7.511594e-03
+iters (single-site updates/chain): 20000
+beta anneal: 3.2302e+01 -> 1.9381e+03
+
+=== Attempts ===
+repeats: 2
+num_reads (chains per call): 256
+num_srt (calls per attempt): 1
+iters per call: 20000
+  [001/2] best J=8.240e-06 | success=False | time_s=1.997794
+  [002/2] best J=1.287e-05 | success=False | time_s=1.674026
+
+=== thrml (CPU) Ising Performance Summary ===
+p_attempt: 0.0000
+median time per attempt (s): 1.835910
+TTS@0.99 (s): inf
+best objective (min over attempts): 8.239939532407e-06
+median objective (over attempts):  1.055543589360e-05
+J_baseline: 1.007559012990e-05
+J_target:   1.007559012990e-06
+END 16:58:17

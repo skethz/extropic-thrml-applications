@@ -1,0 +1,10 @@
+# Track only the three project dirs and the top-level README.
+/*
+!/COP
+!/SISR
+!/CR3BP
+!/EYERIS
+!/README.md
+!/LICENSE
+!/.gitignore
+.DS_Store

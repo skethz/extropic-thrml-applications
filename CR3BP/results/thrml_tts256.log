@@ -1,0 +1,46 @@
+START 17:01:46
+[thrml] devices=[CpuDevice(id=0)]
+
+=== Reference orbit ===
+row_index: 1593
+mu: 1.2150585609624041e-02
+T: 5.598534408649444 TU  ~ 24.816 days
+
+=== Baseline (linearized, u=0) ===
+pred terminal pos err: 573.457048 km
+pred terminal vel err: 0.511183 m/s
+J_baseline: 1.007559012990e-05
+J_target:   1.007559012990e-06
+
+=== thrml Ising encoding ===
+N (variables): 256
+max |J|: 1.978183e+00
+max |h|: 7.511594e-03
+iters (single-site updates/chain): 20000
+beta anneal: 5.1684e+02 -> 1.9381e+04
+
+=== Attempts ===
+repeats: 10
+num_reads (chains per call): 2000
+num_srt (calls per attempt): 8
+iters per call: 20000
+  [001/10] best J=5.146e-07 | success=True | time_s=155.207831
+  [002/10] best J=7.307e-07 | success=True | time_s=204.640493
+  [003/10] best J=6.060e-07 | success=True | time_s=218.032765
+  [004/10] best J=5.236e-07 | success=True | time_s=189.443190
+  [005/10] best J=5.225e-07 | success=True | time_s=157.702423
+  [006/10] best J=5.279e-07 | success=True | time_s=183.801992
+  [007/10] best J=7.660e-07 | success=True | time_s=180.933028
+  [008/10] best J=6.355e-07 | success=True | time_s=179.196311
+  [009/10] best J=6.669e-07 | success=True | time_s=191.433750
+  [010/10] best J=6.066e-07 | success=True | time_s=173.526597
+
+=== thrml (CPU) Ising Performance Summary ===
+p_attempt: 1.0000
+median time per attempt (s): 182.367510
+TTS@0.99 (s): 182.367510
+best objective (min over attempts): 5.145820188943e-07
+median objective (over attempts):  6.063142014402e-07
+J_baseline: 1.007559012990e-05
+J_target:   1.007559012990e-06
+END 17:32:22

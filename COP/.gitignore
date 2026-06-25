@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+rsa_trace
+init_energy_check
+cpp_e0.txt
+py_e0.txt

@@ -1,0 +1,4 @@
+method=gpu dataset=Urban100 scale=4
+images=100
+avg_solve_s=0.0039
+avg_total_s=0.0330

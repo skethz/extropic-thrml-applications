@@ -1,0 +1,12 @@
+matched config: N=2048 stages=64 iters_per_stage=16384 total_steps=1048576 beta=0.25->6.0 repeats=32 target=-67040
+
+metric                         thrml            cuda
+----------------------------------------------------
+successes                          0               2
+success_ratio                 0.0000          0.0625
+avg_hit_steps                1048576         1022859
+best_energy                   -66360          -67604
+TTS99_steps                      inf        74821531
+
+[raw thrml] backend=thrml mode=rsa repeats=32 stages=64 iters_per_stage=16384 total_steps=1048576 target_energy=-67040 | successes=0 success_ratio=0.000000 avg_hit_steps=1048576.00 TTS99_steps=inf batch_wall_ms=110814.286 | best_energy_overall=-66360 | saved trajectory -> results_headline/thrml_traj.npy
+[raw cuda ] backend=gpu mode=rsa repeats=32 stages=64 iters_per_stage=16384 total_steps=1048576 target_energy=-67040 uniformize=0 | successes=2 success_ratio=0.062500 avg_hit_steps=1022858.69 attempt_ms(step-based)=0.529584 TTS99(step-based)=37.788652 batch_wall_ms=1506.045654 | best_energy_overall=-67604
